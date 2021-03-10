@@ -1,0 +1,768 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+/*-----
+----header----------------*/
+header
+{
+	width:100%;
+	position:fixed;
+	background-color: #eef2f5;
+	padding-bottom: 1em;
+	margin-bottom:1em;
+	z-index: 100;
+}
+header img
+{
+	height:70px;
+	width:150px;
+	float:left;
+	padding-top:1em;
+	padding-left: 1em;
+	
+}
+
+
+/*------------------------------------------------*/
+/*-----------------Navigation--------------------*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ 
+}
+
+li {
+  float: left;
+}
+
+header li a, .dropbtn ,.item {
+  display: inline-block;
+  color: #018fe3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:1.2em;
+}
+
+li a:hover, .dropdown:hover .dropbtn ,.item:hover{
+  background-color:#018fe3;
+   color:white;
+   	border-radius:1em;
+
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left:4em;
+  background-color: #ffffff;
+  
+}
+
+.dropdown-content a {
+  color:#018fe3;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover 
+{
+	background-color: #018fe3;
+}
+
+.dropdown:hover .dropdown-content 
+{
+  display: block;
+}
+#logo
+ {
+	height: initial;
+    width: 4.5em;
+	
+}
+ul .item
+{
+	margin-top: 1.5em;
+}
+ul .user
+{
+	margin-top: 1.5em;
+	color:white;
+	border-radius:1em;
+	background-color:  #28b76f;
+    margin-left: 1em;
+
+}
+ul .user:hover
+{
+	border-radius:1em;
+	background-color: #2ba768;
+    margin-left: 1em;
+	border-color:white;
+	border:1;
+
+}
+
+#items
+{
+	margin-left: 9em;
+}
+#login
+{
+	margin-left: 20em;
+}
+
+/*-------------------------------------*/
+
+
+/*section*/
+body
+{
+	position: absolute;
+    display: contents;
+	width: 100%;
+}
+.right ,#leftbar
+{
+	margin: 1em;
+}
+.right
+{
+	background-color: #fdfdfd;
+    width: 70%;
+    float: left;
+	height: 94em;
+}
+#leftbar
+{
+	background-color:#fafbfb;
+    width: 23%;
+    text-align: center;
+	padding-bottom: 1em;
+	float: left;
+	height: 94em;
+}
+.section
+{
+	margin: 2em;
+    margin-top: 8em;
+	margin-bottom:12%;
+	padding:1em;
+	height: 84em;
+}
+#news
+{
+	padding-top: 1em;
+	font-size: 1.5em;
+}
+/*-------------------------------------*/
+
+
+/*----------footer------------------*/
+footer
+{
+	color:white;
+	
+}
+.footer-distributed{
+	background-color:  #018fe3;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 1.5em 1.5em 1.6em 1.5em;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+	text-align:left;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 30%;
+}
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+
+.footer-distributed h3 span{
+	color:  #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+	display:block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+	width: fit-content;
+}
+.footer-distributed .footer-links a:hover
+{
+	color:#28b76f;
+}
+.footer-distributed .footer-company-name{
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+	padding-top: 11em;
+}
+
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 30%;
+}
+.footer-right p a
+{
+	color: white;
+}
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.footer-company-about
+{
+    margin: 20px 0 12px;
+}
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+	text-align: left;
+}
+.footer-distributed .footer-icons :hover
+{
+	color: #018fe3;
+    border-radius:5px;
+    width:1em;
+	background-color:white;
+}
+.footer-distributed .footer-icons a{
+	display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 32px;
+    color: #2dce7d;
+    line-height: 35px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+}
+
+
+/*--------------------------------------*/
+/* Here is the code for Responsive Footer 
+/* You can remove below code if you don't want Footer to be responsive 
+
+
+@media (max-width: 880px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}*/
+
+/*-------------------*/
+.account  
+{
+	background-color: #eef2f5;
+    width: 33%;
+    text-align: center;
+    float: unset;
+    margin-left: 26em;
+    padding: 3em;
+    
+}
+
+.account h3
+{
+	font-size: 1.2em;
+    color: #018fe3;
+}
+.inp , .account textarea
+{
+	border-radius:.3em;
+    font-size: 1em;
+    text-align: left;
+	border: none;
+	padding:.2em;
+	width: 100%;
+}
+
+.button 
+{
+    border: none;
+    font-size: 1.2em;
+    width: 7em;
+    background-color: #28b76f;
+    color: white;
+    border-radius: 1em !important;
+    background-color: #28b76f;
+    margin-right: 4em;
+    height: 1.6em;
+    padding: .2em;
+	margin-top: 1em;
+	
+}
+#forget
+{
+	color: #018fe3;
+	float: center;
+    margin-right: 4em;
+}
+.submitAndReset
+{
+	text-align:center;
+	float: right;
+}
+.reset
+{
+	 background-color:#c6c8ca;
+}
+
+.account span
+{
+	float: left;
+    padding-bottom: .5em;
+	margin-right:1em;
+}
+
+#content
+{
+	background-color: white;
+    width: 60%;
+    float: unset;
+    margin-left:15em;
+    padding: 3em;
+}
+#content img, .empty {
+    width: 16%;
+    float: left;
+    position: relative;
+    margin-top: 3em;
+}
+.gender
+{
+	float: left;
+}
+.about
+{
+	text-align: left;
+}
+.about ,.privacy
+{
+	padding-top:1em;
+	
+}
+.privacy p
+{
+	font-size: large;
+    text-align: left;
+	padding-top: 1em;
+}
+.about p 
+{
+	padding: 1em 13em 2em 1em;
+    font-size: large;
+    text-align: left;
+}
+.about span ,.privacy span
+ {
+    font-size: xx-large;
+    color: #28b76f;
+    padding: -1em 1em 1em 1em;
+    margin-top: 1em;
+}
+.privacy
+{
+	display: inline-block;
+	padding-top:2em;
+	text-align: left;
+}
+.items
+{
+	text-align:center;
+}
+.items img 
+{
+	height: 15em;
+	width: 96%;
+	
+	
+}
+.items p
+{
+	padding:1em;
+}
+.itemi 
+{
+    text-align: center;
+    display: inline-block;
+    width: 20em;
+    background-image:#eef2f5;
+    margin: 2px;
+    padding-bottom:1em;
+    border-radius: .5em;
+	margin-bottom: 1em;
+
+}
+.itemi:hover
+{
+	background-color:#e4e8ea; 
+}
+.itemi img 
+{
+	width: 91%;
+    border-radius: .5em;
+	margin-top: 1em;
+	height: 11em;
+	margin-bottom: 1em;
+}
+.itemi a ,#leftbar a 
+{
+	color: black;
+    text-decoration: none;
+}
+
+video
+{
+	 width:100%;
+	margin-bottom: 2em
+}
+/*------------- news.html -----------------*/
+.info
+{
+	padding: 2em;
+}
+.info div
+{
+	margin-top: 1em;
+}
+.info p
+{
+	margin-top: 1em;
+	padding-right: 9em;
+}
+.datePublish
+{
+	color:#948b8b;
+}
+/*-------ym.html--------*/
+.details
+{
+	text-align:center;
+}
+.details div img
+{
+	width: 82%;
+}
+.details div h2
+{
+    background-color: #eef2f5;
+    padding: .2em;
+    margin: 1em;
+    border-radius: .5em;
+}
+.description
+{
+    padding:1em 2em ;
+    text-align: justify;
+	 margin-bottom: -2em;
+}
+
+.ym
+{
+	height: 106em;
+	margin-top: 10%;
+}
+.title
+{
+	font-weight: bold;
+	font-size: larger;
+}.
+
+
+/*----------monuments.html-------*/
+.ReserveNow
+{
+     font-size: larger !important;
+    float: right !important;
+    margin: 0em 5em 0em 3em !important;
+    padding: .5em;
+    width: auto;
+    height: auto;
+}
+.ReserveNowLink :hover
+{
+     background-color:#20a763 !important;
+}
+.tic
+{
+	margin: .5em;
+    color: #018fe3;
+    font-weight: bold;
+}
+/*----------Reserve.html---------*/
+table 
+{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td 
+{
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th 
+{
+  background-color:#018fe3;
+  color: white;
+  font-size: larger;
+}
+.confirm
+{
+    font-size: medium !important;
+    cursor: pointer;
+}
+
+/**--------offers.html---------*/
+del
+{
+	color:red;
+}
+.cities
+{
+	display: flex;
+    margin: 1em;
+    text-align:center;
+}
+.cities img
+{
+	width: 10em;
+    margin: 1em;
+    border-radius: 1em;
+    height: 8em;
+}
+/*-----------coins.html-------------*/
+td img
+{
+	width:4em;
+	border-radius: 50%;
+
+}
+.coins
+{
+    border-collapse: inherit;
+	text-align: center;	
+}
+/*------------------------*/
+input[type="file"] 
+{
+    display: none;
+}
+.custom-file-upload 
+{
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    float: left;
+    border-radius: 1em;
+	background-color: white;
+}
+input[type="checkbox"]
+{
+    margin-top: 2em;	
+}
+/*------------Hotels----------------*/
+.hotelName ,.hotelDescription
+{
+    
+}
+.hotelName
+{
+	
+	font-size: large;
+    color: #018fe3;
+}
+.hotelDescription
+{
+	margin-left: 2em;
+    margin-right: 2em;
+    color: #8b9196;
+}
+/*--------------------------------------*/
+.reserveHead
+{
+	background-color: white;
+    margin: 3em 4em;
+}
+.reserveBody
+{
+	background-color: white;
+    margin: 1em;
+}
+.unchecked
+{
+	
+}
+.checked
+{
+	color: gold;
+}
+
+.reserveHead img {
+    width: 7em;
+    height: 5em;
+    float: left;
+    margin: 0 1em;
+}
+.reserveBody
+{
+	color: #585858;
+}
+.reserveForm {
+    background-color: #e4e8ea;
+    padding: 2em 3em;
+    border-radius: 1em;
+    margin: 1em 14em 1em 4.5em;
+
+
+}
+.personalInfo
+{
+	font-size: medium;
+    width: 11em;
+    float: left;
+	margin-left: 1em;
+}
+.reserveBody h2
+{
+	margin-left: 3em;
+}
+.reserveBody p
+{
+	margin: 0em 4.5em;
+}
+.reserveBody .button
+{
+	    margin-left: 12em;
+}
+.reserveBody input[type="date"]
+{
+	width: 13.3em;
+    margin-left: 1.1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
